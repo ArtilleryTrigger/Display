@@ -6,3 +6,8 @@ img {
     float: right;
 }
 
+.clearfix::after{
+    content: "";
+    clear: right;
+    display: table;
+}
